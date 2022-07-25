@@ -15,6 +15,7 @@
 # [START cloudbuild_quickstart_automate]
 steps:
   - name: python
-    entrypoint: python
-    args: ["python3", "main.py"] 
+    args: ["python3", "main.py"]
+  env:
+  - 'PROJECT_ID=${_PROJECT_ID}'
 # [END cloudbuild_quickstart_automate]
