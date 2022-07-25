@@ -15,5 +15,6 @@
 # [START cloudbuild_quickstart_automate]
 steps:
   - name: python
+    dir: '/tamnguyen/'
     args: ["python3", "main.py"]
 # [END cloudbuild_quickstart_automate]
