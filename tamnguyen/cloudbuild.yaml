@@ -16,5 +16,5 @@
 steps:
   - name: python
     entrypoint: python
-    args: ["main.py"] 
+    args: ["python3", "main.py"] 
 # [END cloudbuild_quickstart_automate]
