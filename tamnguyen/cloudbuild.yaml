@@ -16,6 +16,4 @@
 steps:
   - name: python
     args: ["python3", "main.py"]
-  env:
-  - 'PROJECT_ID=${_PROJECT_ID}'
 # [END cloudbuild_quickstart_automate]
